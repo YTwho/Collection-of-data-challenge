@@ -2,7 +2,7 @@
 """
 Created on Fri Jun  4 13:21:49 2021
 
-@author: ultraviolet
+@author: Yuting
 """
 import pandas as pd
 import numpy as np
@@ -26,10 +26,10 @@ def positive_pred_ratio(th, y_score):
 def calculate_roc(ytrain, strain, ytest, stest):
     '''
     ---------------
-        ytrain: 训练集真实label(Series)
-        strain: 训练集分数(Series)
-        ytest: 测试集真实label(Series)
-        stest: 测试集分数(Series)
+        ytrain: train label
+        strain: train score
+        ytest: test label
+        stest:test score
     --------------
 
     '''
